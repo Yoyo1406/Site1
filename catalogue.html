@@ -5,35 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catalogue - InfinitePlugins</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Catalogue InfinitePlugins</h1>
+    <div class="logo">Infinite<span>Plugins</span></div>
     <nav>
       <a href="index.html">Accueil</a>
-      <a href="catalogue.html">Catalogue</a>
-      <a href="https://discord.gg/dUefNv89Ht" target="_blank">Discord</a>
+      <a href="catalogue.html" class="active">Catalogue</a>
+      <a href="developers.html">Développeurs</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://discord.gg/dUefNv89Ht" target="_blank" class="discord"><i class="ri-discord-fill"></i></a>
     </nav>
   </header>
 
-  <main>
-    <section class="catalogue">
-      <h2>Nos Plugins</h2>
-      <p>Voici notre catalogue de plugins. Vous pouvez facilement ajouter de nouveaux éléments en modifiant ce fichier.</p>
-      <div class="plugin-list">
-        <div class="plugin-card">
-          <h3>Twist Exemple</h3>
-          <p>Description de votre twist SMP.</p>
-          <span class="price">Prix : 10€</span>
-        </div>
-
-        <div class="plugin-card">
-          <h3>Recode ChillSMP</h3>
-          <p>Recode fidèle du célèbre twist.</p>
-          <span class="price">Prix : 15€</span>
-        </div>
+  <main class="catalogue">
+    <h1>Catalogue des Plugins</h1>
+    <div class="plugin-list">
+      <div class="plugin-card">
+        <img src="images/plugin1.jpg" alt="Twist Exemple">
+        <h3>Twist Exemple</h3>
+        <p>Un twist unique pour rendre vos SMP incroyables.</p>
+        <span class="price">10€</span>
       </div>
-    </section>
+
+      <div class="plugin-card">
+        <img src="images/plugin2.jpg" alt="Recode ChillSMP">
+        <h3>Recode ChillSMP</h3>
+        <p>Recode fidèle d’un twist très connu et apprécié.</p>
+        <span class="price">15€</span>
+      </div>
+    </div>
   </main>
 
   <footer>

@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("InfinitePlugins site modernisé chargé.");
+  console.log("Site InfinitePlugins chargé avec correctifs.");
 });
